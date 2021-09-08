@@ -1,8 +1,11 @@
+import 'dart:ffi';
+
 import 'Sort.dart';
 
 class SelectionSort extends Sort {
   List values;
   SelectionSort(this.values);
+  int x = 5;
 
   @override
   sort([int? start, int? end]) {
